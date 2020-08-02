@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Rozha+One&display=swap');
-body{
-    margin: 0;
 
+
+body
+{
+    background-color: ;
 }
-
-
 *
 {
     box-sizing: border-box;
+    margin: 0;
+    background-color: #dddddd;
 }
 
-nav{ 
+.menu-nav{ 
     box-shadow: 5px 10px 20px 5px #fccbcb;
-    position: relative;
+    /* position: relative; */
     font-family: 'Marcellus SC', serif;
     font-size: 20px;
+    padding: 10px 0px;
+   
 } 
 
 .links-navegacion {
@@ -33,36 +37,39 @@ nav{
     
     border-radius: 100px ;
     background-color: #df5e88;
-    padding: 5px;
+    padding: 0 25px;
     margin-bottom: 20px;
+    text-decoration: none;
+   
 
 }
 .carolina
 {
 
-    background-color: #dddddd;
-    display: flex;
-    padding: 100px 40px 200px;
-
     justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    /* display: flex;
+    padding: 100px 40px 200px;
+    justify-content: center; */
   
 }
 
 .contenedor{
     width: 100%;
     /* max-width: 500px;*/
-    display: flex;
+    /* display: flex;
      flex-direction:row ; 
     align-items: center;
-    text-align: left
-
+    text-align: left;
     justify-content: space-between; 
      flex-direction:row ; 
-} 
+}  */
 
+text-align: left;
+align-content: center;
+padding: 110px 40px 130px;
 
-    width: 100%;
-    max-width: 1100px;
 
 }
 .about-img
@@ -81,18 +88,18 @@ nav{
         
 .saludo
 {
-    color: black;
+    /* color: black;
     font-size: 30px;
     font-family: 'Marcellus SC', serif;
-    margin-bottom: 5px;
-    margin-top: 100px;
+     margin-bottom: 5px;
+    margin-top: 100px;  */
 }
 
 .nombre{
     color: #ff427f;
     font-size: 60px;
-    margin-top: 5px;
-    margin-bottom: 30px;
+    /* margin-top: 5px;
+    margin-bottom: 30px; */
     font-family: 'Rozha One', serif;
 }
 .sobre-mi
@@ -101,6 +108,8 @@ nav{
     font-size: 21px;
     margin-bottom: 60px;
     font-family: 'Marcellus SC', serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 a
@@ -114,10 +123,11 @@ a
     padding: 10px 30px;
     text-decoration: none;
     font-family: 'Marcellus SC', serif;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 180px;
+    text-decoration: none;
 }
 a:visited{
     color: #838383 ;
