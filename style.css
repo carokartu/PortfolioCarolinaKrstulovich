@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Rozha+One&display=swap');
 body{
     margin: 0;
 
@@ -8,6 +11,14 @@ body{
 {
     box-sizing: border-box;
 }
+
+nav{ 
+    box-shadow: 5px 10px 20px 5px #fccbcb;
+    position: relative;
+    font-family: 'Marcellus SC', serif;
+    font-size: 20px;
+} 
+
 .links-navegacion {
     display: flex;
     list-style-type: none;
@@ -31,24 +42,28 @@ body{
 
     background-color: #dddddd;
     display: flex;
-    padding: 110px 40px 130px;
+    padding: 100px 40px 200px;
+
+    justify-content: center;
   
 }
 
-
-
-
-
-
-}
-
-.presentacion{
+.contenedor{
     width: 100%;
-    max-width: 500px;
+    /* max-width: 500px;*/
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+     flex-direction:row ; 
+    align-items: center;
+    text-align: left
+
+    justify-content: space-between; 
+     flex-direction:row ; 
+} 
+
+
+    width: 100%;
+    max-width: 1100px;
+
 }
 .about-img
 {
@@ -61,41 +76,47 @@ body{
     width: 100%;
     padding-left: 10%;
     margin: auto;
+    flex-direction: row;
 }
         
 .saludo
 {
     color: black;
-    font-size: 50px;
-    font-weight: bold;
-    margin: 15px;
-
-
+    font-size: 30px;
+    font-family: 'Marcellus SC', serif;
+    margin-bottom: 5px;
+    margin-top: 100px;
 }
 
 .nombre{
-    color : #ff427f;
-    font-size: 70px;
-    margin: 10px;
+    color: #ff427f;
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-family: 'Rozha One', serif;
 }
 .sobre-mi
 {
-    color : #d9adad ;
-    font-size: 25px;
-    margin: 25px;
+      color: #d9adad;
+    font-size: 21px;
+    margin-bottom: 60px;
+    font-family: 'Marcellus SC', serif;
 }
 
 a
 {
     border-bottom: #ff427f;
     background-color: #ff427f;
-    border-radius: 10px;
+    border-radius: 600px;
     margin-bottom: 10px;
     color: #FAFAFA;
     width: auto;
-    padding: 8px;
+    padding: 10px 30px;
     text-decoration: none;
-    margin: 20px;
+    font-family: 'Marcellus SC', serif;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
     
 }
 a:visited{
