@@ -5,22 +5,25 @@
 
 body
 {
-    background-color: ;
+    /* background-color:##dddddd;
+    */
 }
 *
 {
     box-sizing: border-box;
     margin: 0;
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
 }
 
 .menu-nav{ 
-    box-shadow: 5px 10px 20px 5px #fccbcb;
+    box-shadow: 20px 10px 20px 20px #fccbcb;
     /* position: relative; */
     font-family: 'Marcellus SC', serif;
     font-size: 20px;
     padding: 10px 0px;
-   
+    background-color: #FAFAFA;
+    align-items: center;
+   margin-top: 10px;
 } 
 
 .links-navegacion {
@@ -37,9 +40,10 @@ body
     
     border-radius: 100px ;
     background-color: #df5e88;
-    padding: 0 25px;
-    margin-bottom: 20px;
+    
+   
     text-decoration: none;
+    
    
 
 }
@@ -69,7 +73,7 @@ body
 text-align: left;
 align-content: center;
 padding: 110px 40px 130px;
-
+background-color: #e4e3e3;
 
 }
 .about-img
