@@ -12,7 +12,7 @@ body
 {
     box-sizing: border-box;
     margin: 0;
-    /* background-color: #dddddd; */
+     background-color: #dddddd; 
 }
 
 .menu-nav{ 
@@ -31,10 +31,12 @@ body
     list-style-type: none;
     justify-content: flex-end;
     align-items: center;
+    background-color: #fafafa;
 }
 
 .links-navegacion li {
     margin: 20px;
+    background-color: #FAFAFA;
 }
 .contacto{
     
@@ -51,44 +53,46 @@ body
 {
 
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: 10%;
-    /* display: flex;
-    padding: 100px 40px 200px;
-    justify-content: center; */
+     display: flex;  
+     padding: 110px 40px 130px;
+           
   
 }
 
 .contenedor{
-    width: 100%;
-    /* max-width: 500px;*/
-    /* display: flex;
-     flex-direction:row ; 
-    align-items: center;
-    text-align: left;
-    justify-content: space-between; 
-     flex-direction:row ; 
-}  */
+   
+     display: flex;
+     justify-content: space-between; 
+     flex-wrap: wrap;  
+      background-color: #e4e3e3;
 
-text-align: left;
-align-content: center;
-padding: 110px 40px 130px;
-background-color: #e4e3e3;
+}
 
+.columna-izq{
+display: flex;
+flex-direction: column;
+}
+.columna
+{
+    width: 800px;
+    height: 800px;
 }
 .about-img
 {
     max-width: 500px;
 }
 
-  .item {
-    max-width: 500px;
+.item {
+   
     display: block;
-    width: 100%;
+    width: 117%;
+    height: 43%;
     padding-left: 10%;
-    margin: auto;
     flex-direction: row;
 }
+
+
         
 .saludo
 {
@@ -132,6 +136,7 @@ a
     align-items: center; 
     width: 180px;
     text-decoration: none;
+    
 }
 a:visited{
     color: #838383 ;
@@ -149,4 +154,69 @@ p::selection{
 
 h1::selection{
     background-color: #fccbcb;
+}
+
+
+
+
+.principal {
+    box-sizing: border-box;
+    display: flex ;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+ 
+  .caja {
+    color: #2e2e31;
+
+    padding: 40px 20px;
+    background-color : white;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    width: 260px;
+    margin: 10px;
+    padding: 30px;
+    
+  }
+/*   
+ img{
+    width: 117%;
+    height: 43%;
+
+  } */
+
+
+  .skills
+  {
+    display: flex;
+    justify-content: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+  }
+
+.titulo-seccion-dos
+{
+    font-family: 'Rozha One', serif;
+    font-size: 60px;
+color: #ff427f;
+text-align: center;
+margin-bottom: 55px;
+}
+
+.lorem
+{
+    font-family: 'Marcellus SC', serif;
+    color: #d9adad;
+    font-size: 24px;
+    text-align: center;  
+      margin-bottom: 100px;
+
+}
+.titulo-img
+{
+    background-color: #white;
 }
