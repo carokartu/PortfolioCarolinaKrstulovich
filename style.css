@@ -5,26 +5,22 @@
 
 body
 {
-    /* background-color:##dddddd;
-    */
 }
 *
 {
     box-sizing: border-box;
     margin: 0;
-     background-color: #dddddd; 
 }
-
+/* comienzo nav */
 .menu-nav{ 
     box-shadow: 20px 10px 20px 20px #fccbcb;
-    /* position: relative; */
     font-family: 'Marcellus SC', serif;
     font-size: 20px;
     padding: 10px 0px;
     background-color: #FAFAFA;
     align-items: center;
    margin-top: 10px;
-} 
+}
 
 .links-navegacion {
     display: flex;
@@ -49,7 +45,10 @@ body
    
 
 }
-.carolina
+/* FIN NAVEGACIÓN */
+/* COMIENZO PRESENTACION */
+
+.seccion carolina
 {
 
     justify-content: center;
@@ -63,9 +62,7 @@ body
 .contenedor{
    
      display: flex;
-     justify-content: space-between; 
-     flex-wrap: wrap;  
-      background-color: #e4e3e3;
+     padding: 146px 28px 0px 28px;
 
 }
 
@@ -104,7 +101,7 @@ flex-direction: column;
 }
 
 .nombre{
-    color: #ff427f;
+    color: #8fcfd1;
     font-size: 60px;
     /* margin-top: 5px;
     margin-bottom: 30px; */
@@ -172,14 +169,14 @@ h1::selection{
  
   .caja {
     color: #2e2e31;
-
+    height: 250px;
     padding: 40px 20px;
-    background-color : white;
+    background-color: #FAFAFA;
     border: 1px solid #dddfe5;
-    border-radius: 8px;
+    border-radius: 31px;
     width: 260px;
     margin: 10px;
-    padding: 30px;
+    
     
   }
 /*   
@@ -188,20 +185,31 @@ h1::selection{
     height: 43%;
 
   } */
+/* FIN PRESENTACION */
+
+/* 
+COMIENZO MIS CONOCIMIENTOS */
+
+
+.contenido-skills
+{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 98px 30px 150px 30px;
+    text-align: center;
+  }
+}
 
 
   .skills
-  {
-    display: flex;
-    justify-content: center;
-    padding: 110px 40px 130px;
-    text-align: center;
-  }
+  
 
-.titulo-seccion-dos
+.titulo-conocimientos
 {
     font-family: 'Rozha One', serif;
-    font-size: 60px;
+    font-size: 100px;
 color: #ff427f;
 text-align: center;
 margin-bottom: 55px;
@@ -211,7 +219,7 @@ margin-bottom: 55px;
 {
     font-family: 'Marcellus SC', serif;
     color: #d9adad;
-    font-size: 24px;
+    font-size: 35px;
     text-align: center;  
       margin-bottom: 100px;
 
@@ -220,3 +228,44 @@ margin-bottom: 55px;
 {
     background-color: #white;
 }
+
+
+
+.devicon-html5-plain
+{
+    color ;
+    font-size: 50px;
+}
+
+
+/* FIN DE MIS CONOCIMIENTOS  */
+
+/* COMIENZO DE FRASE  */
+
+
+.contenedor-frase{
+display: flex;
+justify-content: center;
+text-align:center;
+}
+.frase{
+    background-color: #8fcfd1;
+    padding: 110px 40px 130px;
+}
+
+.comillas{
+ font-size: 226px;
+ color: white;
+}
+
+.contenido{
+font-size: 30px;
+
+}
+
+.autor{
+    font-size: 37px;
+}
+
+/* FIN DE FRASE  */
+
