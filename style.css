@@ -3,9 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Rozha+One&display=swap');
 
 
-body
-{
-}
 *
 {
     box-sizing: border-box;
@@ -83,21 +80,16 @@ flex-direction: column;
 .item {
    
     display: block;
-    width: 117%;
-    height: 43%;
+    width: 121%;
+    height: 64%;
     padding-left: 10%;
     flex-direction: row;
 }
 
 
         
-.saludo
-{
-    /* color: black;
-    font-size: 30px;
-    font-family: 'Marcellus SC', serif;
-     margin-bottom: 5px;
-    margin-top: 100px;  */
+.saludo{
+  color: white;
 }
 
 .nombre{
@@ -200,7 +192,7 @@ COMIENZO MIS CONOCIMIENTOS */
     padding: 98px 30px 150px 30px;
     text-align: center;
   }
-}
+
 
 
   .skills
@@ -226,14 +218,13 @@ margin-bottom: 55px;
 }
 .titulo-img
 {
-    background-color: #white;
+    background-color: white;
 }
 
 
 
 .devicon-html5-plain
 {
-    color ;
     font-size: 50px;
 }
 
