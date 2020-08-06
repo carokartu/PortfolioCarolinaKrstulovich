@@ -59,31 +59,35 @@
 .contenedor{
    
      display: flex;
+
      padding: 146px 28px 0px 28px;
 
 }
-
-.columna-izq{
-display: flex;
-flex-direction: column;
+.columna-izq {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto ;
 }
-.columna
-{
-    width: 800px;
-    height: 800px;
+
+    
+.columna-imagen
+{ 
+        display: flex;
+        width: 100%;
+        height: auto;
+
 }
 .about-img
 {
     max-width: 500px;
 }
 
-.item {
+.imagen-caro {
    
-    display: block;
-    width: 121%;
-    height: 64%;
-    padding-left: 10%;
-    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -109,7 +113,8 @@ flex-direction: column;
     padding-bottom: 50px;
 }
 
-a
+.estilo-boton
+
 {
     border-bottom: #ff427f;
     background-color: #ff427f;
@@ -135,7 +140,7 @@ a:active{
 }
 a:hover{
 
-color: blue;
+color: yellow;
 }
 p::selection{
     background-color: #fccbcb;
@@ -183,21 +188,31 @@ h1::selection{
 COMIENZO MIS CONOCIMIENTOS */
 
 
-.contenido-skills
+.contenedor-abuelo
 {
  
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 98px 30px 150px 30px;
-    text-align: center;
-  }
+    justify-content: center;
+    /* padding: 98px 30px 150px 30px; */
+    /* text-align: center;
+  } */
+}
+
+.contenedor-caja{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 700px;
+
+}
 
 
-
-  .skills
-  
-
+.contenido-caja{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
 .titulo-conocimientos
 {
     font-family: 'Rozha One', serif;
@@ -260,3 +275,15 @@ font-size: 30px;
 
 /* FIN DE FRASE  */
 
+/* COMIENZO DE MODO RESPONSIVO */
+
+@media(max-width : 600px){
+
+
+    .contenedor
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
