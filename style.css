@@ -176,30 +176,19 @@ h1::selection{
     
     
   }
-/*   
- img{
-    width: 117%;
-    height: 43%;
 
-  } */
 /* FIN PRESENTACION */
 
 /* 
 COMIENZO MIS CONOCIMIENTOS */
 
-
-.contenedor-abuelo
-{
- 
+.contenedor-abuelo{
     display: flex;
     justify-content: center;
-    /* padding: 98px 30px 150px 30px; */
-    /* text-align: center;
-  } */
+    background-color: yellow;
 }
 
 .contenedor-caja{
-
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -207,11 +196,12 @@ COMIENZO MIS CONOCIMIENTOS */
 
 }
 
-
 .contenido-caja{
     width: 200px;
     height: 200px;
     margin: 10px;
+    background-color: #fafafa;
+}
 }
 .titulo-conocimientos
 {
