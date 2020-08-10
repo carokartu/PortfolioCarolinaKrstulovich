@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Rozha+One&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 *
 {
     box-sizing: border-box;
@@ -34,7 +34,7 @@
 .contacto{
     
     border-radius: 100px ;
-    background-color: #df5e88;
+    background-color: #1d0f13;
     
    
     text-decoration: none;
@@ -93,15 +93,16 @@
 
         
 .saludo{
-  color: white;
+  color: #d9adad ;
+  font-size: 39px;
 }
 
 .nombre{
     color: #8fcfd1;
-    font-size: 60px;
+    font-size: 86px;
     /* margin-top: 5px;
     margin-bottom: 30px; */
-    font-family: 'Rozha One', serif;
+    font-family: 'Sofia', cursive;
 }
 .sobre-mi
 {
@@ -185,6 +186,7 @@ COMIENZO MIS CONOCIMIENTOS */
 .contenedor-abuelo{
     display: flex;
     justify-content: center;
+    padding-block-end: 100px;
    
 }
 
@@ -202,16 +204,17 @@ COMIENZO MIS CONOCIMIENTOS */
     width: 200px;
     height: 200px;
     margin: 10px;
+    border-radius: 20px;
     background-color: #fafafa;
 }
 
-.titulo.skills
+.titulo
 {
     font-family: 'Rozha One', serif;
-    font-size: 50px;
-color: #ff427f;
-text-align: center;
-margin-bottom: 55px;
+    font-size: 67px;
+    color: #ff427f;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
 }
 
 .lorem
@@ -230,14 +233,11 @@ margin-bottom: 55px;
     
 
 }
-
-
-.estilo-icono
-{
-    font-size: 100px;
-    text-align: center;
+.estilo-icono {
+    font-size: 130px;
+    padding: 37px;
+   
 }
-
 
 /* FIN DE MIS CONOCIMIENTOS  */
 
@@ -269,6 +269,61 @@ font-size: 30px;
 }
 
 /* FIN DE FRASE  */
+
+
+.contenedor-abuelo-proyectos{
+    display: flex;
+    justify-content: center;
+    background-color: tomato;
+}
+
+.contenedor-padre-proyectos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 700px;
+    background-color: black;
+}
+
+.tarjeta-proyectos
+{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+.imagen-proyectos
+{
+    
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+.botones-proyectos
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.botones-proyectos {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+}
+
+.boton {
+    padding: 20px;
+    background-color: #FAFAFA;
+}
+
+
+
+
+
 
 /* COMIENZO DE MODO RESPONSIVO */
 
