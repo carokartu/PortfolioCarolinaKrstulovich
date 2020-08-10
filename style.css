@@ -183,29 +183,26 @@ h1::selection{
 /* 
 COMIENZO MIS CONOCIMIENTOS */
 
-.contenedor-abuelo{
+.tarjetas {
     display: flex;
     justify-content: center;
-    padding-block-end: 100px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+
    
 }
 
     
 
-.contenedor-caja{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 700px;
-
-}
-
-.contenido-caja{
-    width: 200px;
-    height: 200px;
+.contenido-skills{
+    width: 250px;
+    /* height: 200px; */
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 30px;
     background-color: #fafafa;
+    border: 5px solid red;
 }
 
 .titulo
@@ -226,17 +223,10 @@ COMIENZO MIS CONOCIMIENTOS */
       margin-bottom: 100px;
 
 }
-.titulo-img
+.imagen-skills
 {
- 
-    text-align: center;
-    
-
-}
-.estilo-icono {
-    font-size: 130px;
-    padding: 37px;
-   
+    width: 100%;
+    height: auto;
 }
 
 /* FIN DE MIS CONOCIMIENTOS  */
@@ -271,26 +261,22 @@ font-size: 30px;
 /* FIN DE FRASE  */
 
 
-.contenedor-abuelo-proyectos{
-    display: flex;
-    justify-content: center;
-    background-color: tomato;
-}
 
-.contenedor-padre-proyectos{
+.contenedor-padre-proyectos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 700px;
-    background-color: black;
-}
+    width: 100%;
 
+  
+}
+ /* NO SE SI ESTA BIEN RESUELTO COMO CENTRE LAS TARJETAS  */
 .tarjeta-proyectos
 {
     width: 200px;
     height: 200px;
     margin: 10px;
-    background-color: blueviolet;
+    border: 1px solid #f6ab6c; 
 }
 
 .imagen-proyectos
@@ -304,25 +290,34 @@ font-size: 30px;
 
 .botones-proyectos
 {
-    font-size: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.botones-proyectos {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
 
+.boton.estilo-diferente
+{
+
+    background-color: chocolate;
+    border: 10px;
+    border-radius: 60px;
 }
 
 .boton {
-    padding: 20px;
-    background-color: #FAFAFA;
+    background-color: transparent;
+    font-size: 17px;
+    padding: 30px 30px 30px 38px;
+    margin: 25px;
+    color: black ;
+    border: 0;
 }
 
+.titulo-tarjeta-proyecto {
 
-
-
+    color: black;
+    font-size: 20px;
+}
 
 
 /* COMIENZO DE MODO RESPONSIVO */
