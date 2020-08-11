@@ -183,26 +183,30 @@ h1::selection{
 /* 
 COMIENZO MIS CONOCIMIENTOS */
 
-.tarjetas {
+.contenedor-abuelo{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-
-
+    padding-block-end: 100px;
    
 }
 
     
 
-.contenido-skills{
-    width: 250px;
-    /* height: 200px; */
+.contenedor-caja{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 700px;
+
+}
+
+.contenido-caja{
+    width: 200px;
+    height: 200px;
     margin: 10px;
-    border-radius: 10px;
-    padding: 30px;
+    border-radius: 20px;
     background-color: #fafafa;
-    border: 5px solid red;
+    padding-top: 10px
 }
 
 .titulo
@@ -223,11 +227,21 @@ COMIENZO MIS CONOCIMIENTOS */
       margin-bottom: 100px;
 
 }
-.imagen-skills
+.titulo-img
 {
-    width: 100%;
-    height: auto;
+ 
+    text-align: center;
+    font-family: 'Marcellus SC', serif;
+    
+
 }
+.estilo-icono {
+    font-size: 130px;
+    padding: 37px;
+   
+}
+
+
 
 /* FIN DE MIS CONOCIMIENTOS  */
 
@@ -261,22 +275,29 @@ font-size: 30px;
 /* FIN DE FRASE  */
 
 
-
+.contenedor-abuelo-proyectos{
+ display: flex;
+ justify-content: center;
+}
 .contenedor-padre-proyectos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-
+   
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 700px;
   
 }
  /* NO SE SI ESTA BIEN RESUELTO COMO CENTRE LAS TARJETAS  */
 .tarjeta-proyectos
 {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    border: 1px solid #f6ab6c; 
+
+        width: 200px;
+        height: 200px;
+        margin: 16px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+         background-color: white; 
+         box-shadow: 4px 4px 7px 4px #f6efa6;
 }
 
 .imagen-proyectos
@@ -293,13 +314,14 @@ font-size: 30px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    font-family: 'Marcellus SC', serif;
 }
 
 
 .boton.estilo-diferente
 {
 
-    background-color: chocolate;
+    background-color: #f6efa6;
     border: 10px;
     border-radius: 60px;
 }
@@ -307,7 +329,7 @@ font-size: 30px;
 .boton {
     background-color: transparent;
     font-size: 17px;
-    padding: 30px 30px 30px 38px;
+    padding : 10px 31px 10px 31px;
     margin: 25px;
     color: black ;
     border: 0;
@@ -317,6 +339,9 @@ font-size: 30px;
 
     color: black;
     font-size: 20px;
+    text-align: center;
+    align-content: center;
+    font-family: 'Marcellus SC', serif;
 }
 
 
