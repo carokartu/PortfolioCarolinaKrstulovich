@@ -93,55 +93,54 @@
 
         
 .saludo{
-  color: #d9adad ;
+  color: #f6ab6c ;
   font-size: 39px;
+  font-family: 'Marcellus SC', serif;
 }
 
 .nombre{
     color: #8fcfd1;
     font-size: 86px;
-    /* margin-top: 5px;
-    margin-bottom: 30px; */
+   
     font-family: 'Sofia', cursive;
 }
 .sobre-mi
 {
-      color: #d9adad;
+      color: #f6ab6c;
     font-size: 21px;
     margin-bottom: 60px;
     font-family: 'Marcellus SC', serif;
     padding-top: 10px;
-    padding-bottom: 50px;
+
 }
 
 .estilo-boton
-
 {
-    border-bottom: #ff427f;
-    background-color: #ff427f;
-    border-radius: 600px;
-    margin-bottom: 10px;
-    color: #FAFAFA;
-    width: auto;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-family: 'Marcellus SC', serif;
-    display: flex; 
-    justify-content: center;
-    align-items: center; 
-    width: 180px;
-    text-decoration: none;
+ 
+        
+        background-color: #ff427f;
+        border-radius: 600px;
+        color: #8fcfd1;;
+        width: auto;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-family: 'Marcellus SC', serif;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+
+        width: 180px;
     
 }
 a:visited{
-    color: #838383 ;
+    color: #ff427f ;
 }
 a:active{
-    color: violet;
+    color: #f6efa6;
 }
 a:hover{
 
-color: yellow;
+color: #8fcfd1;
 }
 p::selection{
     background-color: #fccbcb;
@@ -232,6 +231,9 @@ COMIENZO MIS CONOCIMIENTOS */
  
     text-align: center;
     font-family: 'Marcellus SC', serif;
+    color: #8fcfd1;
+    font-weight: bold;
+
     
 
 }
@@ -273,7 +275,7 @@ font-size: 30px;
 }
 
 /* FIN DE FRASE  */
-
+/* COMIENZO DE PROYECTOS */
 
 .contenedor-abuelo-proyectos{
  display: flex;
@@ -295,8 +297,8 @@ width: 700px;
         height: 200px;
         margin: 16px;
         border: 1px solid transparent;
-        border-radius: 4px;
-         background-color: white; 
+      
+       
          box-shadow: 4px 4px 7px 4px #f6efa6;
 }
 
@@ -322,7 +324,7 @@ width: 700px;
 {
 
     background-color: #f6efa6;
-    border: 10px;
+    
     border-radius: 60px;
 }
 
@@ -345,7 +347,69 @@ width: 700px;
 }
 
 
+/* FIN DE PROYECTOS */
+
+
 /* COMIENZO DE MODO RESPONSIVO */
+
+footer{
+   
+        display: flex;
+        flex-direction: column;
+      
+        align-items: center;
+        padding: 0px 60px 100px 0px;
+        background-color: #8fcfd1;
+       
+}
+
+.ul-nav {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 50px;
+
+}
+.footer-nav-li
+{
+    margin: 14px 19px 51px 23px;
+}
+
+.footer-link
+{
+    text-decoration: none;
+        font-size: 20px;
+        font-family: 'Marcellus SC', serif;
+}
+
+.footer-redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.redes{
+    margin: 14px 19px 51px 23px;
+    font-weight: bold;
+
+}
+
+.footer-final{
+    display: flex;
+    justify-content: end;
+    background-color: greenyellow;
+}
+
+.fin-footer{
+    text-align: end;
+}
+
+
+
+
+
 
 @media(max-width : 600px){
 
