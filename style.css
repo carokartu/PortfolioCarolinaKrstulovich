@@ -30,6 +30,7 @@
 .links-navegacion li {
     margin: 20px;
     background-color: #FAFAFA;
+    color: #ad9d9d;
 }
 .contacto{
     
@@ -60,7 +61,7 @@
    
      display: flex;
 
-     padding: 146px 28px 0px 28px;
+     padding:114px 78px 73px 60px
 
 }
 .columna-izq {
@@ -93,24 +94,25 @@
 
         
 .saludo{
-  color: #f6ab6c ;
+  color: #838383 ;
   font-size: 39px;
   font-family: 'Marcellus SC', serif;
 }
 
 .nombre{
-    color: #8fcfd1;
+    color: #fccbcb;
     font-size: 86px;
    
     font-family: 'Sofia', cursive;
 }
 .sobre-mi
 {
-      color: #f6ab6c;
+      color: #ad9d9d;
     font-size: 21px;
     margin-bottom: 60px;
     font-family: 'Marcellus SC', serif;
     padding-top: 10px;
+    
 
 }
 
@@ -118,9 +120,9 @@
 {
  
         
-        background-color: #ff427f;
+        background-color: #fccbcb;
         border-radius: 600px;
-        color: #8fcfd1;;
+        color: #838383;
         width: auto;
         padding: 10px 30px;
         text-decoration: none;
@@ -133,21 +135,21 @@
     
 }
 a:visited{
-    color: #ff427f ;
+    color: #838383 ;
 }
 a:active{
-    color: #f6efa6;
+    color: #ad9d9d ;
 }
 a:hover{
 
-color: #8fcfd1;
+color: #fccbcb;
 }
 p::selection{
-    background-color: #fccbcb;
+    background-color: #d9adad;
 }
 
 h1::selection{
-    background-color: #fccbcb;
+    background-color: #d9adad;
 }
 
 
@@ -212,7 +214,7 @@ COMIENZO MIS CONOCIMIENTOS */
 {
     font-family: 'Rozha One', serif;
     font-size: 67px;
-    color: #ff427f;
+    color: #fccbcb;
     text-align: center;
     margin: 50px 50px 50px 50px;
 }
@@ -231,7 +233,7 @@ COMIENZO MIS CONOCIMIENTOS */
  
     text-align: center;
     font-family: 'Marcellus SC', serif;
-    color: #8fcfd1;
+    color: #ad9d9d;
     font-weight: bold;
 
     
@@ -239,6 +241,7 @@ COMIENZO MIS CONOCIMIENTOS */
 }
 .estilo-icono {
     font-size: 130px;
+    padding: 37px;
    
    
 }
@@ -256,61 +259,28 @@ justify-content: center;
 text-align:center;
 }
 .frase{
-    background-color: #8fcfd1;
+    background-color: #fccbcb;
     padding: 110px 40px 130px;
 }
 
 .comillas{
  font-size: 226px;
- color: white;
+ color: #ad9d9d;
 }
 
 .contenido{
 font-size: 30px;
+color: #838383;
 
 }
 
 .autor{
     font-size: 37px;
+    color: ##ad9d9d;
 }
 
 /* FIN DE FRASE  */
 /* COMIENZO DE PROYECTOS */
-
-.contenedor-abuelo-proyectos{
- display: flex;
- justify-content: center;
-}
-.contenedor-padre-proyectos {
-   
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-width: 700px;
-  
-}
- /* NO SE SI ESTA BIEN RESUELTO COMO CENTRE LAS TARJETAS  */
-.tarjeta-proyectos
-{
-
-        width: 200px;
-        height: 200px;
-        margin: 16px;
-        border: 1px solid transparent;
-      
-       
-         box-shadow: 4px 4px 7px 4px #f6efa6;
-}
-
-.imagen-proyectos
-{
-    
-    display: flex;
-    width: 100%;
-    height: auto;
-}
-
-
 .botones-proyectos
 {
     display: flex;
@@ -323,7 +293,7 @@ width: 700px;
 .boton.estilo-diferente
 {
 
-    background-color: #f6efa6;
+    background-color: #fccbcb;
     
     border-radius: 60px;
 }
@@ -333,19 +303,53 @@ width: 700px;
     font-size: 17px;
     padding : 10px 31px 10px 31px;
     margin: 25px;
-    color: black ;
+    color: #ad9d9d ;
     border: 0;
 }
 
+.contenedor-abuelo-proyectos{
+ display: flex;
+ justify-content: center;
+}
+.contenedor-padre-proyectos {
+   
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 1000px;
+
+  
+}
+
+.tarjeta-proyectos
+{
+ width: 250px;
+ height: 250px;
+  margin: 16px;
+  border: 1px solid transparent;
+ box-shadow: 4px 4px 7px 4px #fccbcb;
+}
+
+.imagen-proyectos
+{
+    width: 100%;
+    height: auto;
+}
 .titulo-tarjeta-proyecto {
 
-    color: black;
+    color: #ad9d9d ;
     font-size: 20px;
     text-align: center;
     align-content: center;
     font-family: 'Marcellus SC', serif;
+    
 }
 
+.overflow{
+        width: 223px;
+      
+        overflow: hidden;
+}
 
 /* FIN DE PROYECTOS */
 
@@ -359,7 +363,7 @@ footer{
       
         align-items: center;
         padding: 0px 60px 100px 0px;
-        background-color: #8fcfd1;
+        background-color: #dddddd;
        
 }
 
