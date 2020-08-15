@@ -421,6 +421,24 @@ footer{
 
 
 
+/* FIN FOOTER  */
+
+
+/* COMIENZO DE RESPONISIVE */
+
+@media(max-width : 1200px){
+.contenedor{
+display: block;
+}
+
+.columna-izq {
+    width: 100%;
+}
+.nombre {
+    font-size: 103px;
+}
+
+}
 
 @media(max-width : 600px){
 
