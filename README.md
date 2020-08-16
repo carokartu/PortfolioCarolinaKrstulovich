@@ -1,6 +1,6 @@
 # Portfolio Carolina Krstulovich
 
-## Descripción / Description:
+## Descripción :
 ### Español
 
 Este es mi primer proyecto terminado basado en el curso de FrontEnd Developer incluyendo todo lo aprendido en el primer modulo de ADA. 
