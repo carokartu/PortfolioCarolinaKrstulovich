@@ -454,6 +454,7 @@ li.redes{
 @media(max-width : 1200px){
 .contenedor{
 display: block;
+padding: 0;
 }
 .columna-imagen {
     display: flex;
@@ -463,16 +464,42 @@ display: block;
 .redes-img img {
     width: 50px
   }
+
+  .sobre-mi {
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .saludo{
+      text-align: center;
+      margin-top: 100px;
+  }
+  .nombre{
+      text-align: center;
+  }
+  .boton-loquehago{
+    display: flex;
+    justify-content: center;
+}
+
+.columna-izq{
+    width: 100%;
+    margin-left:0 ;
+}
+
+
+
 }
 
 @media(max-width : 850px){
-  .sobre-mi {
-  font-size: 17px;
-}
+  
 
 .contenedor-padre-proyectos {
 
 justify-content:center; }
+
+
+
 }
 
 
