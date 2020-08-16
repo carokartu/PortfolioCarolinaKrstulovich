@@ -11,13 +11,17 @@
     margin: 0;
 }
 /* comienzo nav */
+
+a{
+    text-decoration: none;
+}
 .menu-nav{ 
     box-shadow: 20px 10px 20px 20px #fccbcb;
     font-family: 'Marcellus SC', serif;
     font-size: 20px;
     padding: 10px 0px;
     background-color: #FAFAFA;
-    align-items: center;
+   
    margin-top: 10px;
 }
 .hamburguesa{
@@ -28,22 +32,21 @@
     list-style-type: none;
     justify-content: flex-end;
     align-items: center;
-    background-color: #fafafa;
+ 
+   
 }
 
 .links-navegacion li {
     margin: 20px;
     background-color: #FAFAFA;
     color: #ad9d9d;
+   
 }
 .contacto{
     
     border-radius: 100px ;
     background-color: #1d0f13;
-    
-   
-    text-decoration: none;
-    
+
    
 
 }
@@ -240,14 +243,18 @@ COMIENZO MIS CONOCIMIENTOS */
     font-family: 'Marcellus SC', serif;
     color: #ad9d9d;
     font-weight: bold;
+    padding-top: 50px;
 
     
 
 }
 .estilo-icono {
-    font-size: 130px;
-    padding: 37px;
-   
+    
+    font-size: 88px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 22px;
    
 }
 
@@ -378,26 +385,24 @@ footer{
 
 .ul-nav {
     display: flex;
-    text-decoration: none;
+    
     list-style-type: none;
-    margin-top: 50px;
-    align-items: center;
-    padding: 2px 64px 20px 20px;
-
+   
+    padding: 0;
 }
 
-.footer-nav-li
+ .footer-nav-li
 {
     margin: 14px 19px 51px 23px;
 }
 
 .footer-link
 {
-    text-decoration: none;
+
         font-size: 20px;
         font-family: 'Marcellus SC', serif;
-}
-
+} 
+ 
 
 
 .footer-redes{
@@ -405,7 +410,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: green;
+  
 }
 
 .redes{
@@ -422,7 +427,7 @@ footer{
 
 .fin-footer{
     text-align: end;
- color : #838383
+ color : #838383 ;
  padding: 24px 22px 32px 22px;
 }
 
@@ -432,7 +437,13 @@ footer{
     height: auto;
 }
 
+li.redes{
+    margin :1px ;
+}
 
+.imagen-footer{
+    width: 80px;
+}
 
 /* FIN FOOTER  */
 
@@ -465,7 +476,7 @@ justify-content:center; }
 
 
 
-@media(max-width : 700px){
+@media(max-width : 720px){
 
     .contenedor-padre-proyectos {
 
