@@ -12,7 +12,8 @@
 }
 /* comienzo nav */
 
-a{
+a{ 
+    color:#ad9d9d ;
     text-decoration: none;
 }
 .menu-nav{ 
