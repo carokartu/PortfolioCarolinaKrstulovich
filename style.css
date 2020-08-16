@@ -382,6 +382,7 @@ footer{
     list-style-type: none;
     margin-top: 50px;
     align-items: center;
+    padding: 2px 64px 20px 20px;
 
 }
 
@@ -422,6 +423,7 @@ footer{
 .fin-footer{
     text-align: end;
  color : #838383
+ padding: 24px 22px 32px 22px;
 }
 
 
@@ -441,13 +443,16 @@ footer{
 .contenedor{
 display: block;
 }
-
-
-.nombre {
-    font-size: 103px;
+.columna-imagen {
+    display: flex;
+    height: auto;
 }
 
+.redes-img img {
+    width: 50px
+  }
 }
+
 @media(max-width : 850px){
   .sobre-mi {
   font-size: 17px;
@@ -455,12 +460,27 @@ display: block;
 
 .contenedor-padre-proyectos {
 
-justify-content: center;
+justify-content:center; }
 }
-    
+
+
+
 @media(max-width : 700px){
 
+    .contenedor-padre-proyectos {
 
+        justify-content:center; }
+    .nombre {
+        font-size: 50px;
+    }
+    
+    .titulo{
+        font-size: 30px;
+    }
+    
+    .lorem {
+    font-size: 20px;
+}
     .contenedor
     {
         display: flex;
@@ -490,5 +510,12 @@ justify-content: center;
 .botones-proyectos{
 
 
-display: block;}
+display: grid;}
 }
+
+@media(max-width : 320px){
+
+
+}
+
+/* FIN RESPONSIVE  */
