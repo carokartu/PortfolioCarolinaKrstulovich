@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
 
+/* estas importando dos veces Rozha */
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Rozha+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
@@ -12,6 +13,10 @@
 }
 /* comienzo nav */
 
+
+/* Repetis muchisimas veces la tipografia Marcellus a lo largo de tu codigo. 
+Quiza seria mejor darsela al body aqui, asi no se repite tanto (ya que la tipografia se hereda) */
+
 a{ 
     color:#ad9d9d ;
     text-decoration: none;
@@ -21,6 +26,7 @@ a{
     font-family: 'Marcellus SC', serif;
     font-size: 20px;
     padding: 10px 0px;
+    /* jijiji gracias por esto */
     background-color: #FAFAFA;
    
    margin-top: 10px;
@@ -54,6 +60,8 @@ a{
 /* FIN NAVEGACIÓN */
 /* COMIENZO PRESENTACION */
 
+
+/* fijate que aca css no entiende que queres decir, porque los espacios significan una clase adentro de otra */
 .seccion carolina
 {
 
@@ -80,7 +88,7 @@ a{
     margin-left: 138px;
 }
 
-    
+    /* ninguno de estos estilos es necesario */
 .columna-imagen
 { 
         display: flex;
@@ -125,6 +133,7 @@ a{
 
 }
 
+/* el tabulado aca no esta bien */
 .estilo-boton
 {
  
@@ -153,6 +162,8 @@ a:hover{
 
 color: #84a9ac;
 }
+
+/* que buen detalle este!! */
 p::selection{
     background-color: #d9adad;
 }
@@ -171,6 +182,8 @@ h1::selection{
     text-align: center;
     justify-content: center;
     align-items: center;
+
+    /* no es necesario aclarar flex direction row */
     flex-direction: row;
   }
   

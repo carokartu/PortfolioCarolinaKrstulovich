@@ -11,6 +11,7 @@
     <title>Carolina Krstulovich</title>
 </head>
 
+<!-- OJO!! estas repitiendo todo el head de nuevo!! -->
 <!DOCTYPE html>
 <html lang="es">
    
@@ -32,6 +33,7 @@
             <i class="fas fa-bars"></i>
         </div>
         <ul class="links-navegacion">
+            <!-- intenta no usar mayusculas ni en html ni en css: usa guiones para separar palabras -->
             <li><a href="#HolaSoyCaro">Hola</li></a>
             <li><a href="#conocimientos"> Conocimientos</li></a>
             <li><a href="#proyectos"> Proyectos</li></a>
@@ -42,10 +44,21 @@
     <!-- fin menu de navegacion -->
     <!-- comienza la  presentacion -->
 
+    <!-- aqui html piensa que section tiene DOS clases (seccion y carolina) pero veo que en css
+    intentaste ponerlas al mismo selector. Deberia ser seccion-carolina, con guion. 
+    Tal como esta ahora, el estilo no se esta aplicando -->
     <section class="seccion carolina" id="HolaSoyCaro">
+
+        <!-- no creo que este div sea necesario. por que no darle este estilo a la seccion? -->
         <div class="contenedor">
+<!-- 
+            columna izq se llama este div, pero vemos que en algunas resoluciones ocupa 
+            el 100% de la pantalla y no esta a la izquierda. esa es una guia de que no es un 
+            buen nombre de clase -->
             <div class="columna-izq">
                 <h3 class="saludo"> ¡Hola! Soy </h3>
+
+                <!-- No es buena practica usar br. Eso deberias resolverlo desde CSS -->
                 <h1 class="nombre"> Carolina
                     <br> Krstulovich </h1>
                 <p class="sobre-mi"> Futura Desarrolladora, Profesora de Educación Física
@@ -71,11 +84,13 @@
     <!-- fin de la presentacion -->
     <!-- comienzan mis conocimientos -->
    
+    <!-- no estas usando ninguna de estas clases en css, por que agregarlas a section? -->
             <section class="seccion skills" id="conocimientos">
 
-
+<!-- no es necesario este div, ni siquiera se usa su estilo en css -->
                 <div class="contenedor-skills">
         
+                    <!-- nuevamente usas la clase skills aca pero no en css -->
                     <h2 class="titulo skills"> Mis Conocimientos</h2>
                     <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing <br>
                         Laudantium amet inidunt soluta dicta omnis similique recusandae
@@ -136,10 +151,20 @@
     <!-- Comienzo de Frase  -->
 
     <section class="seccion frase">
+        <!-- no son necesarios ni los divs contenedor-frase ni frase -->
 
         <div class="contenedor-frase">
 
             <div class="frase">
+        <!-- Debemos tener un solo h1 por pagina, que identifica al texto principal.
+                
+            No tenes por qué saber esto, asi que no lo tomo como correccion sino solo como comentario:
+            no es buena practica usar texto para elementos decorativos, como lo es la comilla en este caso. 
+            Los lectores de pantalla, las herramientas que usan las personas no-videntes para 
+            recorrer nuestra web, necesitan los elementos de texto para leerle a los usuarios. 
+            Si usamos texto para decorar, el lector de pantalla va a leerlo y va a confundir a nuestro
+            usuario. En este caso, es mucho mejor utilizar un icono o una imagen.
+        -->
                 <h1 class="comillas"> " </h1>
                 <p class="contenido"> We keep moving forward,</br>
                      opening new doors, and doing new things, </br>
@@ -161,7 +186,7 @@
     <!-- Comienzo de proyectos  -->
 
     <section class=" seccion-proyecto" id="proyectos">
-
+<!-- no es necesario este div -->
         <div class="contenedor-proyectos">
             <h2 class="titulo proyectos"> Mis proyectos</h2>
             <div class="botones-proyectos"> 
@@ -253,6 +278,7 @@
 <!-- FIN DE PROYECTOS -->
 <!-- 
 COMIENZO DE FOOTER -->
+<!-- no es necesario section aqui, con poner solo footer esta bien -->
 <section class="footer-seccion" id="footer">
     <footer >
         <nav class="nav-footer"> 
@@ -272,6 +298,8 @@ COMIENZO DE FOOTER -->
 
         </nav>
 <!-- <div class="contenedor-imagenes"> -->
+
+    <!-- aqui deberia haber otra etiqueta nav -->
         <ul class="ul-nav "> 
             
             <li class="redes"> </li>
