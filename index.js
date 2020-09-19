@@ -13,3 +13,30 @@ botonHamburguesa.onclick = () => {
     scroll.classList.add('.no-scroll')
     console.log('hola')
 }
+
+
+// seccion proyectos 
+
+const proyectos = document.querySelectorAll(".contenedor-padre-proyectos")
+const botonesFiltro = document.querySelectorAll(".tarjeta-proyectos")
+console.log(botonesFiltro)
+
+for (let boton of botonesFiltro) {
+    boton.onclick = () => {
+
+        for (let proyecto of proyectos){       
+        if (boton.dataset.name === proyecto.dataset.name) {
+            proyecto.classList.remove ("hidden")
+        }
+        else if (boton.dataset.name === "todos") {
+            proyecto.classList.remove("hidden")
+        }
+        else {
+            proyecto.classList.add("hidden")
+        }
+
+
+    }
+  }
+    
+}
