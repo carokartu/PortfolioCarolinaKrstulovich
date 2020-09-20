@@ -17,18 +17,19 @@ botonHamburguesa.onclick = () => {
 
 // seccion proyectos 
 
-const proyectos = document.querySelectorAll(".contenedor-padre-proyectos")
+const proyectos = document.querySelectorAll(".tarjeta-proyectos")
 const botonesFiltro = document.querySelectorAll(".boton")
 
+console.log(botonesFiltro)
 
 for (let boton of botonesFiltro) {
     boton.onclick = () => {
        
         for (let proyecto of proyectos){    
-           console.log(proyectos)    
+           
            
         if (boton.dataset.name === proyecto.dataset.name) {
-            proyecto.classList.remove ("hidden")
+            proyecto.classList.remove("hidden")
         }
         else if (boton.dataset.name ==="todos") {
             proyecto.classList.remove("hidden")

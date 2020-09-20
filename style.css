@@ -376,9 +376,6 @@ padding-bottom: 110px;
         overflow: hidden;
 }
 
-.hidden {
-    display: none;
-}
 
 /* FIN DE PROYECTOS */
 
@@ -612,3 +609,9 @@ display: grid;}
 }
 
 /* FIN RESPONSIVE  */
+
+
+
+.hidden {
+    display: none;
+}
