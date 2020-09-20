@@ -2,7 +2,7 @@ const botonHamburguesa = document.querySelector("#menu-responsive")
 const icono = document.querySelector('#icono');
 const menuCelular = document.querySelector('.navegacion-hamb');
 const scroll = document.querySelector('.no-scroll')
-console.log(botonHamburguesa, menuCelular)
+
 
 botonHamburguesa.onclick = () => {
 
@@ -18,17 +18,19 @@ botonHamburguesa.onclick = () => {
 // seccion proyectos 
 
 const proyectos = document.querySelectorAll(".contenedor-padre-proyectos")
-const botonesFiltro = document.querySelectorAll(".tarjeta-proyectos")
-console.log(botonesFiltro)
+const botonesFiltro = document.querySelectorAll(".boton")
+
 
 for (let boton of botonesFiltro) {
     boton.onclick = () => {
-
-        for (let proyecto of proyectos){       
+       
+        for (let proyecto of proyectos){    
+           console.log(proyectos)    
+           
         if (boton.dataset.name === proyecto.dataset.name) {
             proyecto.classList.remove ("hidden")
         }
-        else if (boton.dataset.name === "todos") {
+        else if (boton.dataset.name ==="todos") {
             proyecto.classList.remove("hidden")
         }
         else {
