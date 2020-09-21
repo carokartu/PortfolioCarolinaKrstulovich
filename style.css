@@ -319,6 +319,8 @@ color:  #ad9d9d;;
     background-color: #fccbcb;
     
     border-radius: 60px;
+
+  
 }
 
 .boton {
@@ -453,7 +455,9 @@ li.redes{
 .imagen-footer{
     width: 80px;
 }
-
+.hidden {
+    display: none;
+}
 /* FIN FOOTER  */
 
 
@@ -612,6 +616,3 @@ display: grid;}
 
 
 
-.hidden {
-    display: none;
-}

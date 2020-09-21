@@ -29,13 +29,17 @@ for (let boton of botonesFiltro) {
            
            
         if (boton.dataset.name === proyecto.dataset.name) {
-            proyecto.classList.remove("hidden")
+            proyecto.classList.remove("hidden");
+            proyecto.classList.add("boton.estilo.diferente");
         }
         else if (boton.dataset.name ==="todos") {
-            proyecto.classList.remove("hidden")
+            proyecto.classList.remove("hidden");
+            proyecto.classList.add("boton.estilo.diferente");
+
         }
         else {
-            proyecto.classList.add("hidden")
+            proyecto.classList.add("hidden");
+            proyecto.classList.remove("boton.estilo.diferente");
         }
 
 
